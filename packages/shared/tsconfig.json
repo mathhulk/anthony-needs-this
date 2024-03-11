@@ -4,6 +4,8 @@
     "outDir": "dist",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
+    "declaration": false,
+    "declarationMap": false,
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "target": "ESNext"
   },
