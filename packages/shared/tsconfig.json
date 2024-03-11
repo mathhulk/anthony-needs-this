@@ -2,10 +2,12 @@
   "extends": "@repo/typescript-config/base.json",
   "compilerOptions": {
     "outDir": "dist",
-    "module": "ESNext",
-    "moduleResolution": "Bundler",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "declaration": false,
+    "declarationMap": false,
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "target": "ESNext",
+    "target": "ESNext"
   },
-  "include": ["src"],
+  "include": ["src"]
 }

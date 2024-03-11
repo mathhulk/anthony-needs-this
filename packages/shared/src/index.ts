@@ -10,3 +10,5 @@ export enum DocumentTypeEnum {
   LinkCanonical = "LINK_CANONICAL",
   ImageAlternateText = "ADD_ALT_TAG",
 }
+
+export const something = 'test'
