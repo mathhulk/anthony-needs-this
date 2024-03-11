@@ -1,11 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "test": "turbo test",
-    "start": "turbo start --no-cache",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "start": "turbo run start --no-cache",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
